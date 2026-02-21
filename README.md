@@ -36,7 +36,7 @@ personality-prediction-ml/
 ├── personality_model.pkl
 ├── vectorizer.pkl
 ├── requirements.txt
-└── README.md
+|── README.md
 
 ## 🌟 Features
 
