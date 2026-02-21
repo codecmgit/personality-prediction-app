@@ -43,6 +43,10 @@ print("Vectorization done")
 from sklearn.linear_model import LogisticRegression
 model = LogisticRegression(max_iter=1000)
 model.fit(X_train_vec, y_train)
+import joblib
+joblib.dump(model, "personality_model.pkl")
+joblib.dump(vectorizer, "vectorizer.pkl")
+print("Model and Vectorizer saved successfully!")
 print("Model trained")
 
 # Test Accuracy
